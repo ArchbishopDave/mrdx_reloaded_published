@@ -1,0 +1,41 @@
+{
+  "ModId": "MRDX.Game.ABD_Tournaments",
+  "ModName": "ABD Tournaments",
+  "ModAuthor": "ArchbishopDave",
+  "ModVersion": "0.1.0",
+  "ModDescription": "Dynamically updates tournament data as years pass.",
+  "ModDll": "MRDX.Game.ABD_Tournaments.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/MRDX.Game.ABD_Tournaments.dll",
+  "ModR2RManagedDll64": "x64/MRDX.Game.ABD_Tournaments.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [
+    "Gameplay"
+  ],
+  "CanUnload": true,
+  "HasExports": false,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "MRDX.Game.ABD_Tournaments.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubRelease": {
+      "UserName": "ArchbishopDave",
+      "RepositoryName": "mrdx_reloaded",
+      "UseReleaseTag": false,
+      "AssetFileName": "Mod.zip"
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "MRDX.Base.ExtractDataBin",
+    "reloaded.sharedlib.hooks",
+    "reloaded.universal.redirector",
+    "MRDX.Base.Mod",
+    "Reloaded.Memory.SigScan.ReloadedII"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "mf2.exe"
+  ],
+  "ProjectUrl": "https://github.com/ArchbishopDave/mrdx_reloaded"
+}
